@@ -41,8 +41,6 @@ describe('Create Car Specification', () => {
             specifications_id,
         });
 
-        console.log(specificationsCars);
-
         expect(specificationsCars).toHaveProperty('specifications');
         expect(specificationsCars.specifications.length).toBe(1);
     });
