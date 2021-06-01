@@ -1,9 +1,4 @@
-import {
-    MigrationInterface,
-    QueryRunner,
-    Table,
-    TableForeignKey,
-} from 'typeorm';
+import { MigrationInterface, QueryRunner, Table } from 'typeorm';
 
 export class CreateCarImages1621384551701 implements MigrationInterface {
     public async up(queryRunner: QueryRunner): Promise<void> {
